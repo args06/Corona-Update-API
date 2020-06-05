@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/world_menu"
+        android:title="World"
+        android:icon="@drawable/globe"/>
+    <item
+        android:id="@+id/countries_menu"
+        android:title="Countries"
+        android:icon="@drawable/location"/>
+</menu>

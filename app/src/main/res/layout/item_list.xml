@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="30px">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#989898">
+            <TextView
+                android:id="@+id/country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country Name"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/confirmed_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirmed : "
+                android:layout_below="@id/country_name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/confirmed_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:layout_toRightOf="@id/confirmed_name"
+                android:layout_below="@id/country_name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/deaths_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deaths : "
+                android:layout_below="@id/confirmed_name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/deaths_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456"
+                android:layout_toRightOf="@id/deaths_name"
+                android:layout_below="@id/confirmed_name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/recovery_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recovery : "
+                android:layout_below="@id/deaths_name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/recovery_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789"
+                android:layout_toRightOf="@id/recovery_name"
+                android:layout_below="@id/deaths_name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
